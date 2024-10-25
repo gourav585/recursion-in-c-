@@ -8,19 +8,32 @@
 <p>#include <iostream>
 
 int factorial(int n) {
+<br>
     // Base case
+    <br>
     if (n == 0) {
+    <br>
         return 1;
+        <br>
     } else {
+    <br>
         // Recursive case
+        <br>
         return n * factorial(n - 1);
+        <br>
     }
+    <br>
 }
+<br>
 
 int main() {
+<br>
     int num = 5;
+    <br>
     std::cout << "Factorial of " << num << " is " << factorial(num) << std::endl;
+    <br>
     return 0;
+    
 }</p>
 <h3>Explanation:</h3>
 <p>The factorial function calculates the factorial of a number n.</p>
